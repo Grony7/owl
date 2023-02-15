@@ -29,7 +29,7 @@ export const Button = ({
             [styles.right]: arrow === 'right',
           })}
         >
-        < ArrowIcon/>
+        < ArrowIcon />
       </span>}
     </button>
   );

@@ -6,6 +6,7 @@
   "plugins": [
     "stylelint-order"
   ],
+
   "rules": {
     "indentation": [2, {"ignore": ["inside-parens"]}],
     "color-hex-case": "lower"
