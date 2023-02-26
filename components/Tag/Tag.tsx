@@ -1,4 +1,4 @@
-import {TagProps} from "./Tag.props";
+import {TagProps} from './Tag.props';
 import styles from './Tag.module.css';
 import cn from 'classnames';
 
