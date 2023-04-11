@@ -144,11 +144,15 @@
 	padding: 30px;
 }
 
+.rateTitle a {
+  color: var(--primary);
+}
+
 @media screen and (max-width: 1320px) {
 	.product {
-		grid-template-columns: 
+		grid-template-columns:
 		70px 30px auto 40px auto 40px 1fr;
-		grid-template-areas: 
+		grid-template-areas:
 		"logo . title title title title title"
 		"logo . tags tags tags tags tags"
 		"price price price . credit . rating"
@@ -229,9 +233,9 @@
 
 @media screen and (max-width: 640px) {
 	.product {
-		grid-template-columns: 
+		grid-template-columns:
 		70px 30px 1fr;
-		grid-template-areas: 
+		grid-template-areas:
 		"logo . title"
 		"logo . tags"
 		"priceTitle priceTitle price"
@@ -263,7 +267,7 @@
 @media screen and (max-width: 480px) {
 	.product {
 		grid-template-columns: 1fr;
-		grid-template-areas: 
+		grid-template-areas:
 		"logo"
 		"title"
 		"tags"
